@@ -13,6 +13,3 @@ As an even more profound role, it turns out that if we know the local graph limi
 
 This dissertation presents the general theory of local limits through the study of branching processes, along with some applications on the study of the local limit of the Configuration Model under a specific degree sequence, and an analysis of the Giant Component in an Erdős-Rényi random graph taking the local limit as an assumption.
 
-   
-
-{% endraw %}
