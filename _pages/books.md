@@ -6,12 +6,8 @@ nav: true
 nav_order: 3
 #collection: books
 ---
-> My lecture notes from the Master in Applied Mathematics, with a minor in Quantum Science & Computing, at EPFL.
-> 
-> 
-> A word of warning ! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.
->
-> 
+> My lecture notes from the Master in Applied Mathematics, with a minor in Quantum Science & Computing, at EPFL. <br>
+> A word of warning ! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.<br>
 > -- Arthur, October 2026.
 
 <div style="height: 3rem;"></div>
