@@ -14,12 +14,30 @@ As an even more profound role, it turns out that if we know the local graph limi
 
 This dissertation presents the general theory of local limits through the study of branching processes, along with some applications on the study of the local limit of the Configuration Model under a specific degree sequence, and an analysis of the Giant Component in an Erdős-Rényi random graph taking the local limit as an assumption.
 
-<a href="{{ '/assets/pdf/Arthur Aimone - Local Limits of Random Graphs New copy.pdf' | relative_url }}"
-   target="_blank"
-   rel="noopener noreferrer"
-   style="display: inline-block; margin-top: 1rem;">
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;
+            align-items: flex-start; margin-top: 1.5rem;">
+
   <img
     src="{{ '/assets/img/Proof_RG.png' | relative_url }}"
-    alt="Open dissertation: Local Limits of Random Graphs"
-    style="width: 280px; max-width: 100%; border-radius: 6px;
-           box-shadow: 0 2px 10px rgba(0,0,0,0.2);"></a>
+    alt="Dissertation preview"
+    style="width: 220px; max-width: 100%; border-radius: 6px;
+           box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
+  >
+
+  <div style="flex: 1; min-width: 200px;">
+    <h3 style="margin-top: 0;">
+      <a href="{{ '/assets/pdf/Arthur Aimone - Local Limits of Random Graphs New copy.pdf' | relative_url }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        Local Limits of Random Graphs
+      </a>
+    </h3>
+
+    <p>
+      Write your description here. You can include a short summary,
+      the submission date, or additional information about the dissertation.
+    </p>
+  </div>
+
+</div>
