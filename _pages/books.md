@@ -11,6 +11,8 @@ nav_order: 3
 >
 > -- Arthur, October 2026.
 
+<div style="height: 3rem;"></div>
+
 ## Mathematics
 
 | Course / PDF | Academic year | Description |
@@ -20,6 +22,8 @@ nav_order: 3
 | [Lattice Models]({{ '/assets/pdf/Lattice_Models___EPFL.pdf' | relative_url }}) | Fall 2024 | A first course on Lattice Models. Warning ! These notes require revision. |
 | [Martingales in Financial Mathematics]({{ '/assets/pdf/Martingales_in_Financial_Mathematics___EPFL.pdf' | relative_url }}) | Spring 2025 | A detailed course on Martingales and Stochastic Calculus for Financial Mathematics, in both discrete and continuous-time. |
 | [Multivariate Statistics]({{ '/assets/pdf/Multivariate_Statistics___EPFL.pdf' | relative_url }}) | Spring 2025 | A complete course on Statistics for random vectors and matrices, including inference, dimension reduction, and Gaussian graphical models. |
+
+<div style="height: 3rem;"></div>
 
 ## Quantum Science & Information Theory
 
