@@ -26,7 +26,7 @@ This dissertation presents the general theory of local limits through the study 
             align-items: flex-start; margin-top: 1.5rem;">
 
   <img
-    src="{{ '/assets/img/Proof_RG.png' | relative_url }}"
+    src="{{ '/assets/img/BSc_Thesis_front_page.png' | relative_url }}"
     alt="Dissertation preview"
     style="width: 220px; max-width: 100%; border-radius: 6px;
            box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
