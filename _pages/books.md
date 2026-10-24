@@ -12,3 +12,9 @@ nav_order: 3
 > -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
 ## Books that I am reading, have read, or will read
+
+| Course | Description |
+| :--- | :--- |
+| [Linear Algebra]({{ '/assets/pdf/linear-algebra.pdf' | relative_url }}) | Vector spaces, linear transformations, eigenvalues, and diagonalization. |
+| [Real Analysis]({{ '/assets/pdf/real-analysis.pdf' | relative_url }}) | Limits, continuity, differentiation, and integration. |
+| [Probability]({{ '/assets/pdf/probability.pdf' | relative_url }}) | Random variables, probability distributions, and limit theorems. |
