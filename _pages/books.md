@@ -7,9 +7,9 @@ nav_order: 3
 #collection: books
 ---
 
-> Warning !
+> A word of warning! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.
 >
-> -- Arthur
+> -- Arthur, October 2026.
 
 ## Mathematics
 
