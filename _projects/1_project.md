@@ -2,7 +2,7 @@
 layout: page
 title: Local Limits of Random Graphs
 description: BSc. Thesis in Random Graph Theory
-img: assets/img/12.jpg
+img: assets/img/Proof_RG.jpg
 importance: 1
 category: academic
 related_publications: true
