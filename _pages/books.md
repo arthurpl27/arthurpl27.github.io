@@ -6,9 +6,12 @@ nav: true
 nav_order: 3
 #collection: books
 ---
-
+> My lecture notes from the Master in Applied Mathematics, with a minor in Quantum Science & Computing, at EPFL.
+> 
+> 
 > A word of warning ! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.
 >
+> 
 > -- Arthur, October 2026.
 
 <div style="height: 3rem;"></div>
@@ -33,3 +36,7 @@ nav_order: 3
 | [Quantum Information Theory]({{ '/assets/pdf/Quantum_Information_Theory___EPFL.pdf' | relative_url }}) | Spring 2025 | A (relatively) detailed course on Quantum Information Theory. The first few chapters require more details. |
 | [Statistical Mechanics]({{ '/assets/pdf/Statistical_Mechanics___EPFL.pdf' | relative_url }}) | Spring 2025 | A course on Statistical Mechanics from the point of view of Materials Science. Knowledge of Quantum Mechanics and Particle Physics is advised. |
 | [Information Theory & Coding]({{ '/assets/pdf/Information_Theory___Coding___EPFL.pdf' | relative_url }}) | Fall 2026 | A detailed course on Information Theory and its implications for Coding Theory (data compression, transmission of information).  |
+
+<div style="height: 3rem;"></div>
+
+> I also took some courses in Multiscale Stochastic Analysis, Data Science & Machine Learning, and Stochastic Simulation, for which I did not write lecture notes. 
