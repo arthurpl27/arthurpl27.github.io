@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Arthur ! I am a Master's student at the Swiss Federal Institute of Technology (EPFL), based in Lausanne. 
+Hi, I'm Arthur ! I am in my final semester of my Master's at the Swiss Federal Institute of Technology (EPFL), based in Lausanne. 
 
 I am currently working on a research project focused on continuous-time Data Assimilation and stochastic filtering using low-rank methods enhanced by localisation. This project is under the supervision of [Prof. Fabio Nobile](https://people.epfl.ch/fabio.nobile?lang=en) in the [Chair of Scientific Computing & Uncertainty Quantification (CSQI)](https://www.epfl.ch/labs/csqi/) at EPFL.  
 
-My interests 
+My mathematical interests lie mainly in probability, particularly stochastic processes (e.g. interacting particle systems) and stochastic simulation. Over the past few years, I have also found myself increasingly drawn to quantum science, especially quantum computing and quantum information theory.
