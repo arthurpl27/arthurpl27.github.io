@@ -33,7 +33,7 @@ I am currently working on a research project focused on continuous-time Data Ass
 
 My mathematical interests lie mainly in probability, particularly stochastic processes (e.g. interacting particle systems) and stochastic simulation. Over the past few years, I have also found myself increasingly drawn to quantum science, especially quantum computing and quantum information theory.
 
-During my time at EPFL, I have compiled sets of lecture notes from some of the courses I have taken, which are freely available on this site. I will also share longer projects based on my academic and professional work.
+During my time at EPFL, I have compiled sets of [lecture notes]({{ '/lecture-notes/' | relative_url }}) from some of the courses I have taken, which are freely available on this site. I will also share longer projects based on my academic and professional work.
 
 I hope you find something interesting here. Enjoy exploring !
 
