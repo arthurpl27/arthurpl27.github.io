@@ -2,7 +2,7 @@
 layout: page
 title: lecture notes 
 permalink: /lecture-notes/
-description: Notes on mathematics and quantum physics.
+description: Notes on Mathematics and Quantum Sciences.
 nav: true
 nav_order: 3
 ---
