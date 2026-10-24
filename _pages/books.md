@@ -6,9 +6,9 @@ nav: true
 nav_order: 3
 #collection: books
 ---
-> My lecture notes from the Master in Applied Mathematics, with a minor in Quantum Science & Computing, at EPFL. <br>
-> A word of warning ! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.<br>
-> -- Arthur, October 2026.
+> My lecture notes from the Master in Applied Mathematics, with a minor in Quantum Science & Computing, at EPFL. 
+> <span style="display: block; margin-top: 0.5rem;"> A word of warning ! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.
+> <span style="display: block; margin-top: 0.5rem;"> -- Arthur, October 2026.
 
 <div style="height: 3rem;"></div>
 
@@ -33,6 +33,6 @@ nav_order: 3
 | [Statistical Mechanics]({{ '/assets/pdf/Statistical_Mechanics___EPFL.pdf' | relative_url }}) | Spring 2025 | A course on Statistical Mechanics from the point of view of Materials Science. Knowledge of Quantum Mechanics and Particle Physics is advised. |
 | [Information Theory & Coding]({{ '/assets/pdf/Information_Theory___Coding___EPFL.pdf' | relative_url }}) | Fall 2026 | A detailed course on Information Theory and its implications for Coding Theory (data compression, transmission of information).  |
 
-<div style="height: 3rem;"></div>
+<div style="height: 2rem;"></div>
 
-> I also took some courses in Multiscale Stochastic Analysis, Data Science & Machine Learning, and Stochastic Simulation, for which I did not write lecture notes. 
+> I also took some courses in Multiscale Stochastic Analysis, Data Science & Machine Learning, and Stochastic Simulation, for which I did not write personal lecture notes. 
