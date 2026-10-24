@@ -11,7 +11,7 @@ nav_order: 3
 >
 > -- Arthur
 
-## Lecture notes in Mathematics
+## Mathematics
 
 | Course | Description |
 | :--- | :--- |
@@ -19,7 +19,7 @@ nav_order: 3
 | [Real Analysis]({{ '/assets/pdf/real-analysis.pdf' | relative_url }}) | Limits, continuity, differentiation, and integration. |
 | [Probability]({{ '/assets/pdf/probability.pdf' | relative_url }}) | Random variables, probability distributions, and limit theorems. |
 
-## Lecture notes in Quantum Science
+## Quantum Science & Computing
 
 | Course | Description |
 | :--- | :--- |
