@@ -1,13 +1,13 @@
 ---
 layout: page
-title: EPFL lecture notes 
+title: lecture notes 
 permalink: /lecture-notes/
 nav: true
 nav_order: 3
 #collection: books
 ---
 
-> A word of warning! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.
+> A word of warning ! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.
 >
 > -- Arthur, October 2026.
 
