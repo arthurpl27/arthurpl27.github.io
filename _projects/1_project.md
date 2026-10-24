@@ -5,7 +5,7 @@ description: BSc. Thesis in Random Graph Theory
 img: assets/img/Proof_RG.jpg
 importance: 1
 category: academic
-related_publications: true
+related_publications: false
 ---
 
 First introduced in 2001 by Benjamini and Schramm, local limits have been widely used to describe finite sparse random graphs. The process consists in simplifying the structure of (possibly large) random graphs using simpler models, where in the case of this project we consider approximations to branching processes.  
