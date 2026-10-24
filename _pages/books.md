@@ -1,6 +1,6 @@
 ---
 layout: page
-title: lecture notes
+title: EPFL lecture notes 
 permalink: /lecture-notes/
 nav: true
 nav_order: 3
