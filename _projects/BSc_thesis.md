@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Local Limits of Random Graphs
+title: <strong>Local Limits of Random Graphs</strong>
 permalink: /projects/1_project/
 description: BSc. Thesis in Random Graph Theory
 img: assets/img/Proof_RG.jpg
