@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nonparametric Drift Estimation for Stochastic Differential Equations
+title: Nonparametric Drift Estimation for SDEs
 permalink: /projects/1_project/
 description: MSc. Semester Project in Statistics
 img: assets/img/SDE.png
