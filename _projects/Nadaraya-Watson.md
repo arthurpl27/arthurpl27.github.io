@@ -29,12 +29,12 @@ related_publications: false
       <a href="{{ '/assets/pdf/Semester_Project___Methods_for_Parameter_Estimation_of_SDEs.pdf' | relative_url }}"
          target="_blank"
          rel="noopener noreferrer">
-        Local Limits of Random Graphs
+        Nonparametric Drift Estimation for SDEs
       </a>
     </h3>
 
     <p>
-      Thesis document 
+      Project document 
     </p>
   </div>
 
