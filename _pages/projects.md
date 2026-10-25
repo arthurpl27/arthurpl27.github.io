@@ -70,5 +70,6 @@ horizontal: false
     height: 200px;
     object-fit: contain;
     object-position: center;
+    background-color: white;
   }
 </style>
