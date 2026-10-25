@@ -25,7 +25,10 @@ Now, recall that the Pauli-$Z$ operator is diagonal with eigenvalues $\pm 1$. He
 
 $$H_C=\sum_{(u,v)\in E}w_{uv}Z_uZ_v.$$
 
-By construction, we have that $H_C\ket{s}=C(s)\ket{s}$ (up to an additive constant independent of $s$), and so maximising the cut value is equivalent to minimising the expectation $\bra{s}H_C\ket{s}$ of $H_C$. 
+By construction, we have that $H_C\ket{s}=C(s)\ket{s}$ (up to an additive constant independent of $s$), and so maximising the cut value is equivalent to minimising the expectation $\bra{s}H_C\ket{s}$ of $H_C$. This task is the solution of a variational quantum algorithm, where we will choose a parametrised trial state $\ket*{\psi(\vec{\theta})}=U(\vec{\theta})\ket{\psi_{\textup{initial}}}$ for a parametrised unitary $U(\vec{\theta})=U_N(\theta_N)\hdots U_1(\theta_1)$, with $\vec{\theta}=(\theta_1,\hdots,\theta_N)^\top$ and initial state $\ket{\psi_{\textup{initial}}}$. For this setup, the variational principle tells us that 
+$E_0=\bra{\psi_0} H\ket{\psi_0}\leq\bra*{\psi(\vec{\theta})} H\ket*{\psi(\vec{\theta})}$ for which we hope that:
+        $$\min_{\vec{\theta}}\bra*{\psi(\vec{\theta})} H\ket*{\psi(\vec{\theta})}\gtrsim E_0.$$
+
 
 <div style="height: 0.3rem;"></div>
 
