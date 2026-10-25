@@ -1,12 +1,16 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Nonparametric Drift Estimation for Stochastic Differential Equations
+permalink: /projects/1_project/
+description: MSc. Semester Project in Statistics
+img: assets/img/Proof_RG.jpg
+importance: 1
+category: Mathematics
+related_publications: false
 ---
+<strong>EPFL</strong>, supervised by Prof. Victor Panaretos in Fall 2025.
+
+<hr>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
