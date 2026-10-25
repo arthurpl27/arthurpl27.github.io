@@ -8,7 +8,7 @@ importance: 1
 category: Mathematics
 related_publications: false
 ---
-<strong>King's College London (KCL)</strong>, supervised by Dr. Dominic Yeo.
+<strong>King's College London (KCL)</strong>, supervised by Dr. Dominic Yeo in 2023/24.
 
 <hr>
 
