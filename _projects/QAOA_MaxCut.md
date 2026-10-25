@@ -23,9 +23,9 @@ and we need the value zero whenever $s_u=s_v$ which can be enforced by setting $
 
 Now, recall that the Pauli-$Z$ operator is diagonal with eigenvalues $\pm 1$. Hence, $Z_uZ_v\ket{s}=(-1)^{s_u+s_v}\ket{s}$. As a result, we can encode the cost function on qubits, giving us a <strong> cost Hamiltonian</strong> $H_C$ of the form:
 
-$$H_C=-\sum_{(u,v)\in E}w_{uv}Z_uZ_v.$$
+$$H_C=\sum_{(u,v)\in E}w_{uv}Z_uZ_v.$$
 
-By construction, we have that $H_C\ket{s}=C(s)\ket{s}$ and so maximising the cut value is equivalent to maximising the expectation $\bra{s}H_C\ket{s}$ of $H_C$.
+By construction, we have that $H_C\ket{s}=C(s)\ket{s}$ (up to an additive constant independent of $s$), and so maximising the cut value is equivalent to minimising the expectation $\bra{s}H_C\ket{s}$ of $H_C$. 
 
 <div style="height: 0.3rem;"></div>
 
