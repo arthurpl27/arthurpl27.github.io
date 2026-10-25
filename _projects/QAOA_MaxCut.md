@@ -14,7 +14,7 @@ related_publications: false
 
 <strong>Our MaxCut Problem Statement</strong>: Given an undirected weighted random graph, divide the nodes into two sets such that the sum of the weights is maximised.
 
-<strong>Mathematically</strong>: Consider an undirected graph $G=(V,E)$ with edge weights $w_{uv}$ associated with each edge $(u,v)\in E$. Find $\mathbf{s}\in\{\pm1\}^{\lvert V\rvert}$ giving us
+<strong>Mathematically</strong>: Consider an undirected graph $G=(V,E)$ with edge weights $w_{uv}$ associated with each edge $(u,v)\in E$. Find $\mathbf{s}\in(\pm1)^{\lvert V\rvert}$ giving us:
 
 $$\max_{\mathbf{s}} C(\mathbf{s}):=\max_{\mathbf{s}}\sum_{(u,v)\in E}\frac{w_{uv}}{2}(1-s_us_v)\equiv-\min_{\mathbf{s}}\sum_{(u,v)\in E}s_us_vw_{uv}.$$
 
