@@ -1,12 +1,16 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
-importance: 3
-category: work
+title: MaxCut with QAOA on Weighted Random Graphs
+permalink: /projects/3_project/
+description: Project in Quantum Optimisation 
+img: assets/img/Proof_RG.jpg
+importance: 1
+category: Quantum
+related_publications: false
 ---
+<strong>EPFL</strong>, in Fall 2025.
+
+<hr>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
