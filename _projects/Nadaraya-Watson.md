@@ -21,7 +21,8 @@ We will provide a nonparametric estimator of the drift function $b(X_t)$ from $N
 $$X_t^i=x_0+\int_0^tb(X_s^i)ds+\int_0^t\sigma(X_s^i)dW_s^i,\hspace{0.5cm}t\in[0,T]\hspace{0.2cm}\text{and}\hspace{0.2cm} i\in\{1,...,N\}.$$
 
 We then consider the access to the $N$ random paths through the noisy observations $\{Y^i\}_{i=1}^N$ given by
-$$    Y^i=b(X^i)+\xi_i,\hspace{0.3cm}i\in\{1,..., N\},$$
+
+$$Y^i=b(X^i)+\xi_i,\hspace{0.5cm}i\in\{1,..., N\},$$
 
 such that the Nadaraya-Watson estimation concerns the estimation of the measurable function $b$ giving an estimator $\widehat{b}$, where $\xi_1,...,\xi_N$ are $N$ i.i.d. centred random variables with a strictly positive variance and independent of the SDE samples $X^1,..., X^N$. We moreover assume that the diffusion coefficient can be almost surely determined by the process, i.e. it can be estimated without any error through its continuous observation throughout a time interval.  
 
@@ -29,7 +30,7 @@ We motivate the construction of a Nadaraya-Watson-type estimator for the drift f
 
 $$\widehat{b}_{N,h}(x)=\frac{\widehat{bf}_{N,h}(x)}{\widehat{f}_{N,h}(x)}:=\frac{\left(\frac{1}{N(T-t_0)}\sum\limits_{i=1}^N\int_{t_0}^TK_h(X_t^i-x)dX_t^i\right)}{\left(\frac{1}{N(T-t_0)}\sum\limits_{i=1}^N\int_{t_0}^TK_h(X_t^i-x)dt\right)}.$$
 
-We provide risk-bounds for this estimator, i.e. a bound for the mean squared error (MSE) $\mathbb{E}\big(\lVert \widehat{b}_{N,h}-b\lVert^2\big)$, along with the description of two methods to select the optimal bandwidth $h$ yielding an optimal bias-variance tradeoff.
+We provide risk-bounds for this estimator, i.e. a bound for the mean squared error $\mathbb{E}\lVert \widehat{b}_{N,h}-b\lVert^2$, along with the description of two methods to select the optimal bandwidth $h$ yielding an optimal bias-variance tradeoff.
 
 
 <div style="height: 0.3rem;"></div>
