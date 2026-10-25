@@ -12,81 +12,37 @@ related_publications: false
 
 <hr>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width. $\ket{x}$ $\require{braket}\ket{x}$
+<strong>Our MaxCut Problem Statement</strong>: Given an undirected weighted random graph, divide the nodes into two sets such that the sum of the weights is maximised.
 
-$$\ket{x}$$
+<strong>Mathematically</strong>: Consider an undirected graph $G=(V,E)$ with edge weights $w_{uv}$ associated with each edge $(u,v)\in E$. Find $\mathbf{s}\in\{\pm1\}^{\lvert V\rvert}$ giving us
 
-$$
-\require{braket}
-\ket{x}
-$$
+$$\max_{\mathbf{s}} C(\mathbf{s}):=\max_{\mathbf{s}}\sum_{(u,v)\in E}\frac{w_{uv}}{2}(1-s_us_v)\equiv-\min_{\mathbf{s}}\sum_{(u,v)\in E}s_us_vw_{uv}.$$
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div style="height: 0.3rem;"></div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;
+            align-items: flex-start; margin-top: 1.5rem;">
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+  <img
+    src="{{ '/assets/img/MaxCut.png' | relative_url }}"
+    alt="Dissertation preview"
+    style="width: 220px; max-width: 100%; border-radius: 6px;
+           box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
+  >
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+  <div style="flex: 1; min-width: 200px;">
+    <h3 style="margin-top: 0;">
+      <a href="{{ '/assets/pdf/Quantum_Computing_Final_Presentation___EPFL.pdf' | relative_url }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        QAOA for MaxCut on Weighted Random Graphs
+      </a>
+    </h3>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <p>
+      Project presentation slides 
+    </p>
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+</div>
