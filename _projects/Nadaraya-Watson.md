@@ -16,11 +16,11 @@ In this project, we deal with the nonparametric Nadaraya-Watson estimator of the
 
 $$X_t=x_0+\int_0^tb(X_s)ds+\int_0^t\sigma(X_s)dW_s,\hspace{0.5cm}t\in[0,T].$$
  
-We will provide a nonparametric estimator of the drift function $b(X_t)$ from $N\in\mathbb{N}^*$ i.i.d. copies $\{X_t^i\}_{i=1}^N$ solving the above SDE and from repeated continuous observations of the sample paths. We thus consider the following family of SDEs for $N$ i.i.d. copies of a Brownian motion $\{W^1,...,W^N\}$: 
+We will provide a nonparametric estimator of the drift function $b(X_t)$ from $N\in\mathbb{N}^*$ i.i.d. copies $X_t^1,...,X_t^N$ solving the above SDE and from repeated continuous observations of the sample paths. We thus consider the following family of SDEs for $N$ i.i.d. copies of a Brownian motion $\{W^1,...,W^N\}$: 
  
 $$X_t^i=x_0+\int_0^tb(X_s^i)ds+\int_0^t\sigma(X_s^i)dW_s^i,\hspace{0.5cm}t\in[0,T]\hspace{0.2cm}\text{and}\hspace{0.2cm} i\in\{1,...,N\}.$$
 
-We then consider the access to the $N$ random paths through the noisy observations $\{Y^i\}_{i=1}^N$ given by
+We then consider the access to the $N$ random paths through the noisy observations $Y^1,...,Y^N$ given by
 
 $$Y^i=b(X^i)+\xi_i,\hspace{0.5cm}i\in\{1,..., N\},$$
 
