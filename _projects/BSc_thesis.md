@@ -16,7 +16,7 @@ First introduced in 2001 by Benjamini and Schramm, local limits have been widely
 
 A local limit is an important concept to study possibly large and complex graphs. They give a tool to describe the notion that, in a graph, from the point of view of a vertex chosen at random and naturally creating a rooted graph, the resulting structure looks like a certain limiting graph.
 
-Mathematically, let $\mathcal{G}$ be a set of rooted graphs. Consider a sequence $(G_{n},\rho_{n})$ of random graphs with random root $\rho_{n}$. Let $(H,\rho_{H})$ be a rooted graph. Then, we say that $(G_{n},\rho_{n})$ <strong> converges locally weakly in probability </strong> to $(G,\rho)$ if, for all $r\geq 1$, and for all rooted graphs $H\in\mathcal{G}$: 
+Mathematically, let $\mathcal{G}$ be an ensemble of rooted graphs and set $B_r^G(\rho)$ to be the neighborhood of $\rho$ of radius $r$ in the graph $G$. Consider a sequence $(G_{n},\rho_{n})$ of random graphs with random root $\rho_{n}$. Let $(H,\rho_{H})$ be a rooted graph. Then, we say that $(G_{n},\rho_{n})$ <strong> converges locally weakly in probability </strong> to $(G,\rho)$ if, for all $r\geq 1$, and for all rooted graphs $H\in\mathcal{G}$: 
 
 $$\mathbb{P}\big(B_{r}^{G_{n}}(\rho_{n})\cong (H,\rho_{H}) |G_{n}\big)\xrightarrow{\hspace{0.2cm}\mathbb{P}\hspace{0.2cm}}\mathbb{P}\big(B_{r}^{G}(\rho)\cong H\big)  .$$   
 
