@@ -1,6 +1,6 @@
 ---
 layout: page
-title: QAOA for MaxCut on Weighted Random Graphs
+title: <strong>QAOA for MaxCut on Weighted Random Graphs</strong>
 permalink: /projects/3_project/
 description: Project in Quantum Optimisation 
 img: assets/img/color.jpg
