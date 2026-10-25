@@ -39,7 +39,7 @@ This dissertation presents the general theory of local limits through the study 
 
   <div style="flex: 1; min-width: 200px;">
     <h3 style="margin-top: 0;">
-      <a href="{{ '/assets/pdf/Arthur Aimone - Local Limits of Random Graphs New copy.pdf' | relative_url }}"
+      <a href="{{ '/assets/pdf/3rd_year_project___Local_Limits_of_Random_Graphs.pdf' | relative_url }}"
          target="_blank"
          rel="noopener noreferrer">
         Local Limits of Random Graphs
@@ -47,7 +47,7 @@ This dissertation presents the general theory of local limits through the study 
     </h3>
 
     <p>
-      Thesis document. 
+      Thesis document 
     </p>
   </div>
 
