@@ -5,7 +5,7 @@ permalink: /projects/1_project/
 description: BSc. Thesis in Random Graph Theory
 img: assets/img/Proof_RG.jpg
 importance: 1
-category: academic
+category: Mathematics
 related_publications: false
 ---
 <strong>King's College London (KCL)</strong>, supervised by Dr. Dominic Yeo.
