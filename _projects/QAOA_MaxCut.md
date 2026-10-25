@@ -18,6 +18,14 @@ related_publications: false
 
 $$\max_{\mathbf{s}} C(\mathbf{s}):=\max_{\mathbf{s}}\sum_{(u,v)\in E}\frac{w_{uv}}{2}(1-s_us_v)\equiv-\min_{\mathbf{s}}\sum_{(u,v)\in E}s_us_vw_{uv}.$$
 
+The cost function $C(s)$ has been found by case analysis. Upon the cut, the graph will be separated in two groups $\mathcal{A}$ and $\mathcal{B}$. We would like to sum the contributions of nodes $(u,v)$ that do not belong to the same group, otherwise it means that the corresponding edge has not been cut. Now, assign the value $s=1$ for nodes in group $\mathcal{A}$ and $s=-1$ for nodes in group $\mathcal{B}$. Thus for two nodes in the same group, it must be that $s_us_v=1$, while for two nodes in different groups, $s_us_v=-1$. In other words we need to account for all the cases where $s_u\neq s_v$. To have positive contributions we must consider $-s_us_v$,
+and we need the value zero whenever $s_u=s_v$ which can be enforced by setting $1-s_us_v$. Finally, by symmetry $w_{uv}=w_{vu}$, leading to a double count of the weights hence the necessity to divide by 2 in the cost function.  
+
+Now, recall that the Pauli-$Z$ operator is diagonal with eigenvalues $\pm 1$. Hence, $Z_uZ_v\ket{s}=(-1)^{s_u+s_v}\ket{s}$. As a result, we can encode the cost function on qubits, giving us a <strong> cost Hamiltonian</strong> $H_C$ of the form:
+
+$$H_C=-\sum_{(u,v)\in E}w_{uv}Z_uZ_v.$$
+
+By construction, we have that $H_C\ket{s}=C(s)\ket{s}$ and so maximising the cut value is equivalent to maximising the expectation $\bra{s}H_C\ket{s}$ of $H_C$.
 
 <div style="height: 0.3rem;"></div>
 
