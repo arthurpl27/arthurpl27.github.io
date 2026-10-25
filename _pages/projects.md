@@ -72,4 +72,8 @@ horizontal: false
     object-position: center;
     background-color: white;
   }
+
+  .projects .card-title {
+    font-size: 1.2rem;
+  }
 </style>
