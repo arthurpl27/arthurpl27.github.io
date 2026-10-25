@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nonparametric Drift Estimation for SDEs
-permalink: /projects/1_project/
+permalink: /projects/2_project/
 description: MSc. Semester Project in Statistics
 img: assets/img/SDE.png
 importance: 2
