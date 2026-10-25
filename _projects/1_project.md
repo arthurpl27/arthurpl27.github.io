@@ -9,6 +9,8 @@ related_publications: false
 ---
 <strong>King's College London (KCL)</strong>, supervised by Dr. Dominic Yeo.
 
+<hr>
+
 First introduced in 2001 by Benjamini and Schramm, local limits have been widely used to describe finite sparse random graphs. The process consists in simplifying the structure of (possibly large) random graphs using simpler models, where in the case of this project we consider approximations to branching processes. 
 
 A local limit is an important concept to study possibly large and complex graphs. They give a tool to describe the notion that, in a graph, from the point of view of a vertex chosen at random and naturally creating a rooted graph, the resulting structure looks like a certain limiting graph.
