@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Some projects in Math and Quantum.
 nav: true
-nav_order: 3
+nav_order: 1
 display_categories: [Mathematics, Quantum]
 horizontal: false
 ---

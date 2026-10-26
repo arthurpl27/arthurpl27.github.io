@@ -4,7 +4,7 @@ title: lecture notes
 permalink: /lecture-notes/
 description: Notes on Mathematics and Quantum Sciences.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 > My lecture notes from the Master in Applied Mathematics, with a minor in Quantum Science & Computing, at EPFL. 
 > <span style="display: block; margin-top: 0.5rem;"> A word of warning ! While I am happy with these lecture notes, some are still a work in progress and would benefit from further revision. Also, they almost surely contain typos. That said, I still think there is plenty in them worth reading.
