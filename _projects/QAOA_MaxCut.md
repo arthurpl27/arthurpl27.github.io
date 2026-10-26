@@ -97,7 +97,7 @@ See the project presentation slides and the GitHub repository for a Qiskit imple
             align-items: flex-start; margin-top: 1.5rem;">
 
   <img
-    src="{{ '/assets/img/MaxCut.png' | relative_url }}"
+    src="{{ '/assets/img/qaoa_circuit.png' | relative_url }}"
     alt="QAOA GitHub repository preview"
     style="width: 220px; max-width: 100%; border-radius: 6px;
            box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
@@ -114,8 +114,6 @@ See the project presentation slides and the GitHub repository for a Qiskit imple
 
     <p>
       Source code and experiments accompanying the project.
-      Includes the implementation of QAOA for MaxCut on
-      weighted random graphs.
     </p>
   </div>
 
