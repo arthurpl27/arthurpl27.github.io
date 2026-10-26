@@ -40,7 +40,7 @@ The full report, along with the final presentation of the internship (in French)
             align-items: flex-start; margin-top: 1.5rem;">
 
   <img
-    src="{{ '/assets/img/semester_project .png' | relative_url }}"
+    src="{{ '/assets/img/report.png' | relative_url }}"
     alt="Dissertation preview"
     style="width: 220px; max-width: 100%; border-radius: 6px;
            box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
@@ -69,7 +69,7 @@ The full report, along with the final presentation of the internship (in French)
             align-items: flex-start; margin-top: 1.5rem;">
 
   <img
-    src="{{ '/assets/img/semester_project .png' | relative_url }}"
+    src="{{ '/assets/img/final_presentation.png' | relative_url }}"
     alt="Dissertation preview"
     style="width: 220px; max-width: 100%; border-radius: 6px;
            box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
