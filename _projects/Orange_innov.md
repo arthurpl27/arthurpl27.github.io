@@ -28,6 +28,97 @@ $$E_{\textup{Bind}}=E_{\text{P/L Complex}}-E_{\text{Protein}}-E_{\text{Ligand}}.
   >
 </div>
 
+Thus, at the level of this simplified description, the problem reduces to evaluating the energies of the complex and its constituent fragments. It turns out that several crucial problems in Quantum Chemistry could be interpreted as the estimation of an energy. Of particular interest is the so-called *ground-state energy* $E_0$, which corresponds to the lowest level of energy of a system. In fact, the ground-state energy plays a central role in describing important chemical phenomena, such as bond formation and dissociation. However, computing the (ground-state) binding energy accurately remains a challenging problem for classical computers, as protein–ligand complexes can contain tens of thousands of atoms, making their exact high-accuracy quantum-mechanical description computationally intractable for current methods. For this reason, we initially investigated several approaches to approximately estimate the ground-state energy, including molecular fragmentation techniques such as *Density Matrix Embedding Theory (DMET)* {% cite Kirsopp_2022 %}. However, these methods quickly proved prohibitively demanding for the available computational resources. Consequently, we decided to focus on ground-state energy estimation for small-scale molecular systems.
+
+In this report, we investigate different methods to estimate the ground-state energy of a quantum-mechanical system. We first briefly review the foundations of Quantum Mechanics, Quantum Chemistry, and Quantum Computing in order for the reader to be able to follow the later sections. We then investigate *Quantum Subspace Methods*, which seek to simplify the energy estimation problem by focusing the analysis on a smaller part of the original problem. We also explore *Neural Quantum States*, a machine-learning approach designed to represent and study complex many-body quantum systems. Throughout the report, the theoretical developments are complemented by numerical implementations, allowing the different methods to be tested on concrete examples.
+
+The full report, along with the final presentation of the internship (in French), and a GitHub repository on Neural Quantum States, can be found below.  
+
+<div style="height: 0.3rem;"></div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;
+            align-items: flex-start; margin-top: 1.5rem;">
+
+  <img
+    src="{{ '/assets/img/semester_project .png' | relative_url }}"
+    alt="Dissertation preview"
+    style="width: 220px; max-width: 100%; border-radius: 6px;
+           box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
+  >
+
+  <div style="flex: 1; min-width: 200px;">
+    <h3 style="margin-top: 0;">
+      <a href="{{ '/assets/pdf/Stage_Orange_Innovation___Rapport_Technique copy.pdf' | relative_url }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        Technical Report
+      </a>
+    </h3>
+
+    <p>
+      Internship report 
+    </p>
+  </div>
+
+</div>
+
+
+<div style="height: 0.3rem;"></div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;
+            align-items: flex-start; margin-top: 1.5rem;">
+
+  <img
+    src="{{ '/assets/img/semester_project .png' | relative_url }}"
+    alt="Dissertation preview"
+    style="width: 220px; max-width: 100%; border-radius: 6px;
+           box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
+  >
+
+  <div style="flex: 1; min-width: 200px;">
+    <h3 style="margin-top: 0;">
+      <a href="{{ '/assets/pdf/Final_QM_Presentation___Orange_Innovation__Copy_.pdf' | relative_url }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        Internship Presentation (in French)
+      </a>
+    </h3>
+
+    <p>
+      Final internship presentation 
+    </p>
+  </div>
+
+</div>
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;
+            align-items: flex-start; margin-top: 1.5rem;">
+
+  <img
+    src="{{ '/assets/img/qaoa_circuit.png' | relative_url }}"
+    alt="QAOA GitHub repository preview"
+    style="width: 220px; max-width: 100%; border-radius: 6px;
+           box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
+  >
+
+  <div style="flex: 1; min-width: 200px;">
+    <h3 style="margin-top: 0;">
+      <a href="https://github.com/arthurpl27/Neural_Quantum_States"
+         target="_blank"
+         rel="noopener noreferrer">
+        Neural Quantum States — GitHub Repository
+      </a>
+    </h3>
+
+    <p>
+      Source code and experiments on Neural Quantum States.
+    </p>
+  </div>
+
+</div>
+
+
 
 <style>
   a.citation {font-size: 0.8em;}
