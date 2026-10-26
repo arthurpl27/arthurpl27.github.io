@@ -20,6 +20,14 @@ properties. Initially, we will focus on the core problem of creating novel drug 
 
 $$E_{\textup{Bind}}=E_{\text{P/L Complex}}-E_{\text{Protein}}-E_{\text{Ligand}}.$$ 
 
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img
+    src="{{ '/assets/img/PL.png' | relative_url }}"
+    alt="Simplified representation of protein-ligand interactions"
+    style="width: 400px; max-width: 100%; height: auto;"
+  >
+</div>
+
 
 <style>
   a.citation {font-size: 0.8em;}
