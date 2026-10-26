@@ -1,4 +1,4 @@
-## al-folio
+## Website
 
 Personal website for Arthur Aimone, built using the al-folio [Jekyll](https://jekyllrb.com/) theme and hosted on GitHub Pages.
 
