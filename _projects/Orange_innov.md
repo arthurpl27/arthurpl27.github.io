@@ -3,7 +3,7 @@ layout: page
 title: <strong>Quantum Computing for Molecular Simulation</strong>
 permalink: /projects/4_project/
 description: Research Internship 
-img: assets/img/color.jpg
+img: assets/img/fermionic.jpg
 importance: 2
 category: Quantum
 related_publications: true
@@ -119,7 +119,7 @@ The full report, along with the final presentation of the internship (in French)
 
 </div>
 
-
+<div style="height: 3rem;"></div>
 
 <style>
   a.citation {font-size: 0.8em;}
