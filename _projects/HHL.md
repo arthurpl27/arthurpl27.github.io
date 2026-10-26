@@ -12,7 +12,7 @@ related_publications: false
 
 <hr>
 
-A short report on the analysis of the HHL algorithm along with some limitations.
+A short report on the analysis of the HHL algorithm along with some of its limitations.
 
 <div style="height: 0.3rem;"></div>
 
