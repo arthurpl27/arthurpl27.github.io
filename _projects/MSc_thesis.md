@@ -36,7 +36,7 @@ related_publications: false
     </h3>
 
     <p>
-      An overview of smoothing and filtering methods in discrete and continuous-time Data Assimilation 
+      An overview of smoothing and filtering in discrete / continuous-time Data Assimilation 
     </p>
   </div>
 
