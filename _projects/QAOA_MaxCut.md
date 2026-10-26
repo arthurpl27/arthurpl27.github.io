@@ -91,3 +91,32 @@ See the project presentation slides and the GitHub repository for a Qiskit imple
   </div>
 
 </div>
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;
+            align-items: flex-start; margin-top: 1.5rem;">
+
+  <img
+    src="{{ '/assets/img/MaxCut.png' | relative_url }}"
+    alt="QAOA GitHub repository preview"
+    style="width: 220px; max-width: 100%; border-radius: 6px;
+           box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
+  >
+
+  <div style="flex: 1; min-width: 200px;">
+    <h3 style="margin-top: 0;">
+      <a href="https://github.com/arthurpl27/MaxCut_QAOA"
+         target="_blank"
+         rel="noopener noreferrer">
+        QAOA for MaxCut — GitHub Repository
+      </a>
+    </h3>
+
+    <p>
+      Source code and experiments accompanying the project.
+      Includes the implementation of QAOA for MaxCut on
+      weighted random graphs.
+    </p>
+  </div>
+
+</div>
