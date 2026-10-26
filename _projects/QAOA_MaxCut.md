@@ -38,7 +38,7 @@ However, at the moment we have a problem ! We will initialise the QAOA circuit w
 
 $$e^{-i\gamma H_C}\ket{\Phi}=\frac{1}{\sqrt{2^{|V|}}}\sum_{\mathbf{s}\in(\pm 1)^{|V|}}e^{-i\gamma H_C}\ket{\mathbf{s}}=\frac{1}{\sqrt{2^{|V|}}}\sum_{\mathbf{s}\in(\pm 1)^{|V|}}e^{-i\gamma C(\mathbf{s})}\ket{\mathbf{s}}.$$
 
-Now remark that the probabilities of measuring the state $\mathbf{s}$ are given by:
+Now remark that the probabilities of measuring a state $\mathbf{s}$ are given by:
 
 $$\mathbb{P}(\mathbf{s})=\left|\bra{\mathbf{s}}e^{-i\gamma H_C}\ket{\Phi}\right|^2=\left|\frac{e^{-i\gamma C(\mathbf{s})}}{\sqrt{2^{|V|}}}\right|^2=\frac{1}{2^{|V|}},$$
 
