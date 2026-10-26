@@ -61,7 +61,15 @@ By optimizing the parameters $\gamma$ and $\beta$, we aim to make states $\mathb
 
 $$U(\vec{\gamma},\vec{\beta})=\prod_{j=1}^pe^{-i\gamma_j H_C}e^{-i\beta_j H_M}.$$
 
-See the project presentation slides and the GitHub repository for a Qiskit implementation of the QAOA circuit on a weighted random graph with $\lvert V\rvert=7$, $p=2$ and 4 parameters to estimate. This project also includes a study of the robustness of the model against noise, where we compare the QAOA cost against the noise parameter for different number $p$ of layers. This comparison has been made for a depolarising noise, a bit-flip and a dephasing noise.      
+See the project presentation slides and the GitHub repository for a Qiskit implementation of the QAOA circuit on a weighted random graph with $\lvert V\rvert=7$, $p=2$ and 4 parameters to estimate. This project also includes a study of the robustness of the model against noise, where we compare the QAOA cost against the noise parameter for different number $p$ of layers. This comparison has been made for a depolarising noise, a bit-flip and a dephasing noise:
+
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img
+    src="{{ '/assets/img/plots.png' | relative_url }}"
+    alt="Impact of noise on QAOA"
+    style="width: 400px; max-width: 100%; height: auto;"
+  >
+</div>
 
 
 <div style="height: 0.3rem;"></div>
