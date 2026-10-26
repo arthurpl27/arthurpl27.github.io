@@ -97,8 +97,8 @@ The full report, along with the final presentation of the internship (in French)
             align-items: flex-start; margin-top: 1.5rem;">
 
   <img
-    src="{{ '/assets/img/qaoa_circuit.png' | relative_url }}"
-    alt="QAOA GitHub repository preview"
+    src="{{ '/assets/img/with_SR.png' | relative_url }}"
+    alt="SR GitHub repository preview"
     style="width: 220px; max-width: 100%; border-radius: 6px;
            box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
   >
