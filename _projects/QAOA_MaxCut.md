@@ -99,7 +99,7 @@ See the project presentation slides and the GitHub repository for a Qiskit imple
   <img
     src="{{ '/assets/img/qaoa_circuit.png' | relative_url }}"
     alt="QAOA GitHub repository preview"
-    style="width: 220px; max-width: 100%; border-radius: 6px;
+    style="width: 260px; max-width: 100%; border-radius: 6px;
            box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
   >
 
