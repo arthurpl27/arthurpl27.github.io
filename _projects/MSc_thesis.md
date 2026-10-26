@@ -2,8 +2,8 @@
 layout: page
 title: <strong>Dynamical Low-Rank Filtering & Localisation</strong>
 permalink: /projects/6_project/
-description: MSc. Thesis in Data Assimilation & Filtering
-img: assets/img/SDE.png
+description: MSc. Thesis in continuous-time Data Assimilation & Filtering 
+img: assets/img/DA.png
 importance: 1
 category: Mathematics
 related_publications: false
