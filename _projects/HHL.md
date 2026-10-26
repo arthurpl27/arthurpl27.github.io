@@ -1,11 +1,16 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: <strong>HHL Algorithm</strong>
+permalink: /projects/5_project/
+description: A short analysis of the HHL Algorithm 
+img: assets/img/color.jpg
 importance: 3
-category: fun
+category: Quantum
+related_publications: false
 ---
+<strong>EPFL</strong>, in Spring 2025.
+
+<hr>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
