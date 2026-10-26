@@ -92,6 +92,7 @@ The full report, along with the final presentation of the internship (in French)
 </div>
 
 
+<div style="height: 0.3rem;"></div>
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem;
             align-items: flex-start; margin-top: 1.5rem;">
 
