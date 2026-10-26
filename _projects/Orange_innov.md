@@ -4,7 +4,7 @@ title: <strong>Quantum Computing for Molecular Simulation</strong>
 permalink: /projects/4_project/
 description: Research Internship 
 img: assets/img/fermionic.jpg
-importance: 2
+importance: 1
 category: Quantum
 related_publications: true
 ---
