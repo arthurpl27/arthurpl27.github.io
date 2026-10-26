@@ -3,7 +3,7 @@ layout: page
 title: <strong>HHL Algorithm</strong>
 permalink: /projects/5_project/
 description: A short analysis of the HHL Algorithm 
-img: assets/img/color.jpg
+img: assets/img/circuit.png
 importance: 3
 category: Quantum
 related_publications: false
@@ -20,7 +20,7 @@ A short report on the analysis of the HHL algorithm along with some limitations.
             align-items: flex-start; margin-top: 1.5rem;">
 
   <img
-    src="{{ '/assets/img/circuit.png' | relative_url }}"
+    src="{{ '/assets/img/HHL_pic.png' | relative_url }}"
     alt="Dissertation preview"
     style="width: 220px; max-width: 100%; border-radius: 6px;
            box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
