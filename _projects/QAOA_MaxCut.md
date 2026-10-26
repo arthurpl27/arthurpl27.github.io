@@ -57,7 +57,7 @@ for which the Trotter decomposition of its time-evolution operator is
 
 $$e^{-iH\Delta t}\approx e^{-i\gamma H_C}e^{-i\beta H_M},\hspace{0.5cm}\textup{ $\beta=(1-t/T)\Delta t$ and $\gamma=(t/T)\Delta t$.}$$
 
-By optimizing the parameters $\gamma$ and $\beta$, we aim to make states $\mathbf{s}$ with larger cut values more likely to appear. As a straightforward generalisation, we can consider a non-uniform time function $g(t)$, at a depth $p$, for some angles $\gamma_i$ and $\beta_i$, $i=(1,..., p)$. So, for a set of parameters $\vec{\theta}=(\vec{\gamma},\vec{\beta})=(\gamma_1,...,\gamma_p,\beta_1,...,\beta_p)$, the $p$-layers QAOA parametrised quantum circuit is given by: 
+By optimizing the parameters $\gamma$ and $\beta$, we aim to make states $\mathbf{s}$ with larger cut values more likely to appear. As a straightforward generalisation, we can consider a non-uniform time function $g(t)$, at a depth $p$, for some angles $\gamma_j$ and $\beta_j$, $j=(1,..., p)$. So, for a set of parameters $\vec{\theta}=(\vec{\gamma},\vec{\beta})=(\gamma_1,...,\gamma_p,\beta_1,...,\beta_p)$, the $p$-layers QAOA parametrised quantum circuit is given by: 
 
 $$U(\vec{\gamma},\vec{\beta})=\prod_{j=1}^pe^{-i\gamma_j H_C}e^{-i\beta_j H_M}.$$
 
