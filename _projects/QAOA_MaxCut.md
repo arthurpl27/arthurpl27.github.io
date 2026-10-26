@@ -57,9 +57,11 @@ for which the Trotter decomposition of its time-evolution operator is
 
 $$e^{-iH\Delta t}\approx e^{-i\gamma H_C}e^{-i\beta H_M},\hspace{0.5cm}\textup{ $\beta=(1-t/T)\Delta t$ and $\gamma=(t/T)\Delta t$.}$$
 
-As a straightforward generalisation, we can consider a non-uniform time function $g(t)$, at a depth $p$, for some angles $\gamma_i$ and $\beta_i$, $i=\{1,..., p\}$. And so, for a set of parameters $\vec{\theta}=(\vec{\gamma},\vec{\beta})=(\gamma_1,...,\gamma_p,\beta_1,...,\beta_p)$, the $p$-layers QAOA parametrised quantum circuit is given by: 
+By optimizing the parameters $\gamma$ and $\beta$, we aim to make states $\mathbf{s}$ with larger cut values more likely to appear. As a straightforward generalisation, we can consider a non-uniform time function $g(t)$, at a depth $p$, for some angles $\gamma_i$ and $\beta_i$, $i=(1,..., p)$. And so, for a set of parameters $\vec{\theta}=(\vec{\gamma},\vec{\beta})=(\gamma_1,...,\gamma_p,\beta_1,...,\beta_p)$, the $p$-layers QAOA parametrised quantum circuit is given by: 
 
 $$U(\vec{\gamma},\vec{\beta})=\prod_{j=1}^pe^{-i\gamma_j H_C}e^{-i\beta_j H_M}.$$
+
+See the project presentation slides and the GitHub repository for a Qiskit implementation of the QAOA circuit on a weighted random graph with $|V|=7$, $p=2$ and 4 parameters to estimate. This project also includes a study of the robustness of the model against noise, where we compare the QAOA cost against the noise parameter for different number $p$ of layers. This comparison has been made for a depolarising noise, a bit-flip and a dephasing noise.      
 
 
 <div style="height: 0.3rem;"></div>
