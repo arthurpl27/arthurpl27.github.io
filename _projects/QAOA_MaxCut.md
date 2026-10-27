@@ -8,7 +8,7 @@ importance: 2
 category: Quantum
 related_publications: false
 ---
-<strong>EPFL</strong>, in Fall 2025.
+<strong>EPFL</strong>, course in Quantum Computing (Prof. Vincenzo Savona) in Fall 2025.
 
 <hr>
 
