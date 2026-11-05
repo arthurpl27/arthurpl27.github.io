@@ -20,7 +20,7 @@ related_publications: false
 
 <strong>• Implementation of large-scale PDE models (e.g. Linear Advection-Reaction model, Kuramoto model)</strong>.
 
-<strong>• Discretization schemes (e.g. FDM)</strong>.
+<strong>• Discretization schemes (e.g. FDM)</strong>..
 
 
 <div style="height: 0.3rem;"></div>
