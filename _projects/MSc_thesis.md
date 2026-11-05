@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <strong>Dynamical Low-Rank Filtering & Localisation</strong>
+title: <strong>Dynamical Low-Rank Filtering & Localization</strong>
 permalink: /projects/6_project/
 description: MSc. Thesis on continuous-time Data Assimilation & Filtering 
 img: assets/img/DA.png
@@ -13,6 +13,15 @@ related_publications: false
 <hr>
 
 <strong>ONGOING PROJECT</strong>. 
+
+<strong>• Dynamical Low-Rank Approximations for Ensemble Kalman Filtering</strong>.
+
+<strong>• Covariance localization and properties of banded matrices</strong>.
+
+<strong>• Implementation of large-scale PDE models (e.g. Linear Advection-Reaction model, Kuramoto model)</strong>.
+
+<strong>• Discretization schemes (e.g. FDM)</strong>.
+
 
 <div style="height: 0.3rem;"></div>
 
@@ -42,3 +51,29 @@ related_publications: false
 
 </div>
 
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;
+            align-items: flex-start; margin-top: 1.5rem;">
+
+  <img
+    src="{{ '/assets/img/qaoa_circuit.png' | relative_url }}"
+    alt="QAOA GitHub repository preview"
+    style="width: 220px; max-width: 100%; border-radius: 6px;
+           box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
+  >
+
+  <div style="flex: 1; min-width: 200px;">
+    <h3 style="margin-top: 0;">
+      <a href="https://github.com/arthurpl27/DLR_Filters_Localisation"
+         target="_blank"
+         rel="noopener noreferrer">
+        Master Thesis — PROVISIONAL GitHub Repository
+      </a>
+    </h3>
+
+    <p>
+      Source code and experiments accompanying the project.
+    </p>
+  </div>
+
+</div>
