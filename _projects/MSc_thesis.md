@@ -20,7 +20,7 @@ related_publications: false
 
 <strong>• Implementation of large-scale PDE models (e.g. Linear Advection-Reaction model, Kuramoto model)</strong>.
 
-<strong>• Discretization schemes (e.g. FDM)</strong>..
+<strong>• Discretization schemes (e.g. FDM)</strong>.
 
 
 <div style="height: 0.3rem;"></div>
@@ -56,8 +56,8 @@ related_publications: false
             align-items: flex-start; margin-top: 1.5rem;">
 
   <img
-    src="{{ '/assets/img/qaoa_circuit.png' | relative_url }}"
-    alt="QAOA GitHub repository preview"
+    src="{{ '/assets/img/overview_DA.png' | relative_url }}"
+    alt="Master thesis GitHub repository preview"
     style="width: 220px; max-width: 100%; border-radius: 6px;
            box-shadow: 0 2px 10px rgba(0,0,0,0.2);"
   >
