@@ -29,7 +29,7 @@ latest_posts:
 
 Hi, I'm Arthur ! I am in the final semester of my Master's degree at the Swiss Federal Institute of Technology (EPFL), based in Lausanne. 
 
-I am currently working on a research project focused on continuous-time Data Assimilation and stochastic filtering using low-rank methods enhanced by localisation. This project is under the supervision of [Prof. Fabio Nobile](https://people.epfl.ch/fabio.nobile?lang=en) in the [Chair of Scientific Computing & Uncertainty Quantification (CSQI)](https://www.epfl.ch/labs/csqi/) at EPFL.  
+I am currently working on a research project focused on continuous-time Data Assimilation and stochastic filtering using low-rank methods enhanced by localization. This project is under the supervision of [Prof. Fabio Nobile](https://people.epfl.ch/fabio.nobile?lang=en) in the [Chair of Scientific Computing & Uncertainty Quantification (CSQI)](https://www.epfl.ch/labs/csqi/) at EPFL.  
 
 My mathematical interests lie mainly in Probability, particularly Stochastic Processes (e.g. interacting particle systems) and Stochastic Simulation. Over the past few years, I have also found myself increasingly drawn to Quantum Science, especially Quantum Computing and Quantum Information Theory.
 
